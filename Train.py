@@ -3,8 +3,9 @@ from tensorflow import keras
 from tensorflow.keras import layers
 from tqdm import tqdm
 
-img_height = 63
-img_width = 84
+#Rozmiar obrazków do nauki
+img_height = 79
+img_width = 106
 
 # Liczba zdjęć w jednej paczce
 batch_size = 32
