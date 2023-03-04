@@ -1,3 +1,4 @@
+#Ten prosty program używałem na wczesnym eptapie prac nad bazą szkoleniową, zapisuje on obrazek w schowku do pliku .png o losowej nazwie.
 import pyperclip
 import random
 import string
