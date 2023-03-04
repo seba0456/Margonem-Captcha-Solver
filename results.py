@@ -2,10 +2,13 @@ import tensorflow as tf
 from tensorflow import keras
 import numpy as np
 
+#Rozmiar obrazków do nauki
+img_height = 79
+img_width = 106
+
 # Wczytaj wytrenowany model z dysku
 model = keras.models.load_model('model')
-img_height = 63
-img_width = 84
+
 # Wczytaj obrazek testowy
 img = keras.preprocessing.image.load_img(
     'tester.png',
