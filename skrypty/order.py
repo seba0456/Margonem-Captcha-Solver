@@ -1,8 +1,8 @@
 import os
 
-folder_path = "Music"
-output_name = "nRadioTrack"
-output_extension = ".wav"
+folder_path = "Blang"
+output_name = "TrainInage"
+output_extension = ".png"
 index = 0
 
 for filename in os.listdir(folder_path):
